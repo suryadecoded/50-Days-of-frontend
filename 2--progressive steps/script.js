@@ -1,7 +1,7 @@
 const progress = document.getElementById('progress')
 const prev = document.getElementById('prev')
 const next = document.getElementById('next')
-const circles = document.getElementsByClassName('.circle')
+const circles = document.getElementsByClassName('circle')
 
 let currentActive = 1
 
@@ -24,7 +24,7 @@ function update() {
         }
     })
 
-    const actives = document.getElementsByClassName('.active')
+    const actives = document.getElementsByClassName('active')
 
     progress.style.width = (actives.length - 1) / (circles.length - 1) * 100 + '%'
 
