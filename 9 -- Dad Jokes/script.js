@@ -1,4 +1,4 @@
-const jokE = document.getElementById('joke')
+const jokE = document.getElementById('jokE')
 const jokeBtn = document.getElementById('jokeBtn')
 
 jokeBtn.addEventListener('click', generateJoke)
